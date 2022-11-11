@@ -14,7 +14,7 @@
         cy.get('[data-ref="loginUsername.container"]').type('admin')
         cy.get('[data-ref="loginPassword.container"]').type('12345')
         cy.get('[data-ref="loginButton"]').click()
-        cy.get('p').contains('Success')
+        cy.get('div').contains('Success')
     });        
     
     
